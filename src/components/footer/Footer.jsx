@@ -1,6 +1,7 @@
 import ButtonComponent from "./ButtonsGit";
 import img from "../../assets/githubIcon.png";
 import "./style.css";
+import { useState } from "react";
 
 const userGit = [
   {
@@ -12,28 +13,30 @@ const userGit = [
     link: "https://github.com/Joaquin-Elia",
   },
   {
-    name: "M",
-    link: "",
+    name: "MR",
+    link: "https://github.com/martinaruizdev",
   },
   {
-    name: "V",
-    link: "",
+    name: "VG",
+    link: "https://github.com/VivianaGonzales",
   },
   {
-    name: "JS",
-    link: "",
+    name: "JA",
+    link: "https://github.com/Jochaaa",
   }
 ];
 
 const Footer = () => {
-
+ const [showButton, setShowButton] = useState(false);
   return (
     <div className="div-container">
       <h2 className="subtitle">Acerca de</h2>
-      <button className="button-git">
+      <button onClick={()=> setShowButton(!showButton)} className="button-git">
         <img src={img} className="animation" />
       </button>
+        {showButton&&
         <ButtonComponent userGit={userGit}/>
+        }
       <hr />
       <p>©2023 NUMENTech. Todos los derechos reservados</p>
     </div>
