@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500&display=swap');
+
+@media (max-width: 768px) {
+    footer {
+      text-align: center;
+    }
+}
+
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #322E31;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+.subtitle{
+    align-self: flex-start;
+    font-size: 20px !important;
+    margin: 5% !important;
+}
+hr{
+    color: #fff;
+    width: 50%;
+}
 img{
     width: 70px;
     height: auto;
 }
 
+.button-container {
+    display: flex;
+    width: 50%;
+}
+
+.button-git{
+    display: flex;
+}
+
+.button-names {
+    width: 70%;
+    margin: 2%;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+p {
+    font-size: 13px !important;
+}
+
+.miDiv {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.button-git {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.div-button-container {
+    display: flex;
+}
