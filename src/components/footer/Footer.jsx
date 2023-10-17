@@ -28,15 +28,15 @@ const userGit = [
 
 const Footer = () => {
  const [showButton, setShowButton] = useState(false);
+
+
   return (
     <div className="div-container">
       <h2 className="subtitle">Acerca de</h2>
-      <button onClick={()=> setShowButton(!showButton)} className="button-git">
-        <img src={img} className="animation" />
+      <button onClick={()=> {setShowButton(!showButton)}} className="button-git">
+        <img src={img} />
       </button>
-        {showButton&&
-        <ButtonComponent userGit={userGit}/>
-        }
+        {<ButtonComponent userGit={userGit} showButton={showButton}/>}
       <hr />
       <p>©2023 NUMENTech. Todos los derechos reservados</p>
     </div>
