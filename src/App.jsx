@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar';
+import Cards from './components/cards/Cards'
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div style={{height: '200vh', width: '100%', background: '#9e8ac7'}}></div>
+      <Cards/>
     </>
   )}
 
