@@ -1,11 +1,12 @@
 import Footer from './components/footer/Footer'
 import './App.css'
+import Cards from './components/cards/Cards'
 
 function App() {
   return (
     <>
-      <div style={{height: '90vh', width: '100%'}}></div>
       <Footer />
+      <Cards/>
     </>
   )}
 
