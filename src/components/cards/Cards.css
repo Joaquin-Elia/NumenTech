@@ -16,12 +16,14 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(243, 244, 249);
+    padding: 10px;
 }
 
 .cards {
-    border: solid rgb(50, 46, 49) 1px;
+    background-color: #c1b5dd;
     margin: 10px;
     width: 90%;
+    border-radius: 20px;
 }
 
 .btn-comprar-cards {
@@ -54,11 +56,10 @@
     }
 
     .cards {
-        width: 400px;
+        width: 350px;
         background-color: #c1b5dd;
-        height: 550px;
+        height: 500px;
         padding: 1rem;
-        border: solid rgb(50, 46, 49) 1px;
         margin: 20px;
         border-radius: 6px;
         overflow: hidden;
