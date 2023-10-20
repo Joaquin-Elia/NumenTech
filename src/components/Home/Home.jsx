@@ -7,7 +7,7 @@ const Home = () => {
       <div className='home-texto'>
         <h1 className='home-pearl-white' >Descrubrí la nueva línea Pearl White</h1>
         <p className='home-subtitle' >Los mejores productos ahora en color blanco. Disponibles a partir de Noviembre de 2023.</p>
-        <button className='home-boton'>Ver Más</button>
+        <a  className='home-boton' href="#galery">Ver Más</a>
       </div>
     </div>
   )

@@ -38,6 +38,8 @@
     margin: 0 auto;
     cursor: pointer;
     padding: 10px 37px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .home-texto{
@@ -54,8 +56,29 @@
 
  @media(min-width: 900px){ 
     .home-banner{
-        background: url("../../assets/banner-1440redux.jpg") no-repeat;
+        background: url("../../assets/banner-1440redux.jpg") no-repeat 25%;
         background-size: cover;
         padding-top: 26vh;
+        height: 70vh;
+    }
+
+    .home-boton{
+        transition: 150ms linear;
+    }
+
+    .home-boton:hover{
+        background-color: rgba(237, 237, 237, 0.848);
     }
 } 
+
+@media(min-width: 1100px){
+    .home-banner{
+        height: 85vh;
+    }
+}
+
+@media(min-width: 1500px){
+    .home-banner{
+        height: 100vh;
+    }
+}
