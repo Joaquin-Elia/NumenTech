@@ -14,7 +14,7 @@ header, nav, section, video, svg, path {
 
 img, video, iframe, picture, figure{
     max-width: 100%;
-    display: block;
+
 }
 a {
     display: block;
@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, p, a, span, strong, i {
     font-style: inherit;
     text-decoration: none;
     color: inherit;
-}
-/* ::selection{
+} 
+::selection{
     background-color: var(--first-color);
     color: var(--dark-color);
-} */
+} 
 form, input , textarea, select, button, label {
     font-family: inherit;
     font-size: inherit;
@@ -56,6 +56,7 @@ body {
     color: var(--dark-color);
     background-color: var(--light-color); */
 }
+
 /* main{
     max-width: 105rem;
     margin: auto;
