@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500&display=swap');
+
 /* reset  */
 * {
     margin: 0;
@@ -5,8 +7,8 @@
     border: 0;
     box-sizing: border-box;
     vertical-align: baseline;
+    font-family: 'DM Sans', sans-serif;
 }
-
 img, video, iframe, picture, figure{
     max-width: 100%;
     display: block;
