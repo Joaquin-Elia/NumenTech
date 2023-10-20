@@ -44,6 +44,25 @@
     padding: .5rem 1.4rem;
     font-size: .9em;
 }
+.card-modal-info{
+    width: 90%;
+    margin: 3rem auto .8rem;
+}
+.card-modal-info > p{
+    font-size: .97em;
+    margin: 1.1rem 0 1.6rem;
+    max-width: 24rem;
+}
+.card-modal-info > h3{
+    font-weight: 600;
+    line-height: 1.9rem;
+}
+.card-modal-info > button{
+    font-size: 1.1em;
+    padding: .7rem 1.2rem;
+    /* display: block; */
+    width: 100%;
+}
 @media (min-width: 60.25rem) {
     .cont-cards {
         width: 100%;
@@ -64,12 +83,29 @@
     }
     .cards:hover {
         box-shadow: 5px 5px 1.25rem rgba(0, 0, 0, 0.4);
-        transform: translateY(-3%);
+        transform: translateY(-3px);
     }
     .btn-comprar-cards{
         transition: 150ms ease-in-out;
     }
     .btn-comprar-cards:hover {
         background-color: blueviolet;
+    }
+    .card-modal-img{
+        width: 40rem;
+        margin: auto;
+    }
+    .card-modal-info > p{
+        font-size: 1.05em;
+        max-width: 30rem;
+    }
+    .card-modal-info{
+        width: 82%;
+    }
+    .card-modal{
+        width: 45rem;
+    }
+    .card-modal-info > button{
+        font-size: 1.2em;
     }
 }
