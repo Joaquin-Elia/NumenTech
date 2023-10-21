@@ -1,0 +1,77 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "img": "src/assets/imgs/auris.webp",
+        "title": "ASTRO A30 INALÁMBRICOS",
+        "shortDesc": "Auriculares inalámbricos para gaming LIGHTSPEED para Xbox, PlayStation, PC / MAC y dispositivos móviles.",
+        "description": "A30 Wireless combina la máxima flexibilidad, movilidad, estilo y comodidad en unos auriculares para juegos LIGHTSPEED y Bluetooth que pueden reproducirse en cualquier plataforma. Juega a cualquier cosa en cualquier lugar con A30 Wireless, compatible con Xbox Series X | S, PlayStation 5, Nintendo Switch, PC / MAC, dispositivos móviles y más. * Domina a la perfección todo tu entorno sonoro digital mientras conectas y mezclas simultáneamente varios dispositivos.",
+        "price": 250
+      },
+      {
+        "id": 2,
+        "img": "src/assets/imgs/cam2.png",
+        "title": "LOGITECH STREAMCAM",
+        "shortDesc": "Cámara con Full HD y USB-C para creación de contenido",
+        "description": "Logitech StreamCam hace streaming y graba con resolución Full HD 1080p a 60 fps, ofreciendo excepcional video con movimiento fluido para tu mundo online. Tanto para grabar videos de YouTube como para streaming en Twitch y otras cosas, la lente de cristal premium y el sistema de enfoque automático inteligente de StreamCam facilitan la obtención de resultados de calidad profesional. Funciones avanzadas como las de encuadre automático y exposición inteligente garantizan la mejor imagen con cualquier tipo de iluminación",
+        "price": 100
+      },
+      {
+        "id": 3,
+        "img": "src/assets/imgs/mouse1.webp",
+        "title": "LOGITECH G705",
+        "shortDesc": "Mouse inalámbrico para juegos",
+        "description": "De The Aurora Collection, el mouse inalámbrico G705 para juegos tiene una forma pensada para el confort y el control, con un diseño también apto para manos pequeñas. Con tecnología inalámbrica LIGHTSPEED para juegos, RGB LIGHTSYNC y tecnología avanzada para juegos.",
+        "price": 100
+      },
+      {
+        "id": 4,
+        "img": "src/assets/imgs/mouse2.png",
+        "title": "M720 TRIATHLON",
+        "shortDesc": "Mouse inalámbrico multidispositivo con desplazamiento ultra rápido",
+        "description": "Te presentamos el mouse de alta precisión concebido para un confort, una resistencia y una versatilidad insuperables. Con controles adicionales, dos modos de desplazamiento y seguimiento con dpi ajustable, el M720 te permite realizar cualquier tarea.",
+        "price": 40
+      },
+      {
+        "id": 5,
+        "img": "src/assets/imgs/tec1.webp",
+        "title": "TECLADO MECÁNICO G413 TKL",
+        "shortDesc": "Interruptores mecánicos táctiles, ideales para decisiones rápidas en juegos FPS y competitivos.",
+        "description": "El G413 TKL SE tiene interruptores mecánicos táctiles, seguidilla de 6 teclas con prevención de efecto fantasma, teclas de PBT y una carcasa de aleación de aluminio resistente, con un diseño sin sección numérica. Luz LED blanca que mejora la concentración.",
+        "price": 120
+      },
+      {
+        "id": 6,
+        "img": "src/assets/imgs/tec2.png",
+        "title": "TECLADO BLUETOOTH K480",
+        "shortDesc": "Alterna la escritura en la computadora, el celular o la tablet",
+        "description": "El K480 es un confortable teclado multidispositivo que ahorra espacio y facilita la escritura en la laptop, la tablet o el celular. Puedes emparejar hasta tres dispositivos y alternar fácilmente el uso entre los tres. Este teclado resistente y con duración de baterías prolongada tiene un esmerado diseño y es lo que necesitas para una mayor productividad, en cualquier sitio.",
+        "price": 200
+      },
+      {
+        "id": 7,
+        "img": "src/assets/imgs/tec3.png",
+        "title": "MOUSE PAD - STUDIO SERIES",
+        "shortDesc": "Suave alfombrilla de mouse para un deslizamiento fácil y confortable",
+        "description": "Ésta es la suave alfombrilla de mouse antideslizante que mejora tu espacio de trabajo. Hecha con materiales de alta calidad, la alfombrilla de mouse Logitech te ofrece la facilidad de deslizamiento y el confort que necesitas para tu mouse Logitech favorito.",
+        "price": 20
+      },
+      {
+        "id": 8,
+        "img": "src/assets/imgs/powerplay.webp",
+        "title": "MOUSE PAD - POWERPLAY",
+        "shortDesc": "Sistema inalámbrico de carga.",
+        "description": "Carga continuamente tus mouse Logitech G para juegos compatibles: G703, G903, G502 LIGHTSPEED, G502 X LIGHTSPEED, G502 X PLUS, PRO Wireless, PRO X Superlight y más. POWERPLAY es una solución completa con tecnología inalámbrica LIGHTSPEED profesional integrada.",
+        "price": 35
+      },
+      {
+        "id": 9,
+        "img": "src/assets/imgs/cam1.png",
+        "title": "C270 HD WEBCAM",
+        "shortDesc": "Videoconferencias HD 720p básicas",
+        "description": "Videoconferencias HD simples. La cámara web C270 ofrece conferencias nítidas y fluidas (720p/30 fps) en pantalla panorámica. La corrección de iluminación automática produce colores reales y naturales.",
+        "price": 200
+      }
+    ],
+    "cart": []
+}
