@@ -31,7 +31,7 @@ const Footer = () => {
 
 
   return (
-    <div className="div-container">
+    <div className="div-container" id="contact">
       <h2 className="subtitle">Acerca de</h2>
       <button onClick={()=> {setShowButton(!showButton)}} className="button-git">
         <img src={img} />

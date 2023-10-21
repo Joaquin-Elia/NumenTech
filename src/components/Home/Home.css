@@ -1,5 +1,5 @@
 .home-banner{
-    background: url("../../assets/banner-sm.jpg") no-repeat ;
+    background: url("../../assets/banner-sm.jpg") no-repeat;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -14,34 +14,33 @@
     flex-direction: column;
     gap: 1rem;
 }
-
 .home-pearl-white{
     font-weight: 900;
-    font-size: 2.8rem;
+    font-size: 2.8em;
     padding: 0 .3rem;
 }
 .home-subtitle{
     font-weight: 500;
-    font-size: 1.5rem;
-    margin: 25px 0 38px 0;
-    line-height: 2.2rem;
+    font-size: 1.1rem;
+    margin: 1.5625rem 0 2.375rem 0;
+    line-height: 1.5rem;
     padding: 0 .3rem;
 }
 .home-boton{
     background-color: white;
     color: rgb(55, 55, 55);
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 600;
     margin: 0 auto;
     cursor: pointer;
-    padding: 10px 37px;
+    padding: .4375rem 2.125rem;
     text-decoration: none;
     display: inline-block;
 }
 .home-texto{
     max-width: 40rem;
 }
-@media(min-width: 500px){
+@media(min-width: 31.25rem){
     .home-banner{
         background-position: 0 80%;
         padding-top: 16vh;
@@ -61,12 +60,13 @@
         background-color: rgba(237, 237, 237, 0.848);
     }
 } 
-@media(min-width: 1100px){
+@media(min-width: 68.75rem){
     .home-banner{
-        height: 85vh;
+        height: 90vh;
+        background-position: 0 35%;
     }
 }
-@media(min-width: 1500px){
+@media(min-width: 1500rem){
     .home-banner{
         height: 100vh;
     }

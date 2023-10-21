@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import './Carrousel.css';
@@ -33,14 +32,13 @@ const Carrousel = () => {
                     },
                 }}
                 modules={[Navigation, Pagination]}
-
                 className="mySwiper"
+                id="gallery"
             >
                 {CarrouselImg.map((img,i)=>
                 
-                    <SwiperSlide key={i}>
-                        <div className='img'><img src={img} alt="" />
-                        </div>
+                    <SwiperSlide key={i} className='swiper-slide'>
+                        <div className='img'><img src={img} alt="" className='carrousel-imgs'/></div>
                     </SwiperSlide>
                 )}           
             </Swiper>

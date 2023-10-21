@@ -1,27 +1,17 @@
   .mySwiper {
     width: 100%;
     height: 100%;
-
+    margin: 4rem 0;
   } 
-  
   .swiper-slide {
-    text-align:justify;
-    font-size: 18px;
-    background: #eee;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 3rem;
   }
-  
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
+  .carrousel-imgs{
+    width: 30rem;
+    height: 20rem;
     object-fit:cover;
+    user-select: none;
   } 
-
-  .img{
-    width: 450px;
-    height: 360px;
-  }
