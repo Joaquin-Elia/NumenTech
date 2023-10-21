@@ -15,6 +15,7 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      'ES6 + Public Class Fields (draft: https://tc39.github.io/proposal-class-public-fields/)'
     ],
   },
 }

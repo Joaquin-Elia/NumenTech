@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500&display=swap');
+
+.button-git >a {
+    text-decoration: none;
+    color: #000;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #322E31;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.div-container > p {
+    font-size: 13px;
+}
+.subtitle{
+    align-self: flex-start;
+    font-size: 20px;
+    margin: 5%;
+}
+hr{
+    color: #fff;
+    width: 50%;
+}
+img{
+    width: 70px;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    width: 50%;
+}
+
+.button-git{
+    display: flex;
+}
+
+.button-names {
+    width: 70%;
+    margin: 2%;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+.miDiv {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.div-button-container {
+    display: flex;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.visible {
+     max-height: 1000px;
+     opacity: 1;
+}
+ .hidden {
+    max-height: 0;
+     opacity: 0;
+}
+
+.button-git {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+@media (min-width: 768px) {
+    .div-container {
+      text-align: center;
+    }
+    .subtitle{
+        margin:2%;
+    }
+}
+
+
