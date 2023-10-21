@@ -96,8 +96,7 @@
         background-color: blueviolet;
     }
     .card-modal-img{
-        max-width: 20rem;
-        margin: -2rem auto auto;
+        margin: -2rem auto 0;
     }
     .card-modal-info > p{
         font-size: .9em;
@@ -117,7 +116,6 @@
         margin: 1.1rem 0 1.6rem;
     }
     .card-modal-img{
-        max-width: 25rem;
-        margin: -2rem auto auto;
+        margin: -2rem auto -1rem;
     }
 }
