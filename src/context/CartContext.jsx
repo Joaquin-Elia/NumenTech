@@ -1,11 +1,9 @@
 import { createContext, useEffect, useState } from "react";
 import axios from 'axios';
-import CardList from "../components/cards/CardList";
-import Navbar from '../components/Navbar/Navbar'
 
 export const CartProvider = createContext();
 
-const CartContext = () => {
+const CartContext = ({children}) => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
     const [total, setTotal] = useState(0);
@@ -55,7 +53,6 @@ const CartContext = () => {
         setCart([]);
     };
 
-    
     useEffect(() => {
         const totalCart = () => {
             const calculate = cart.reduce((prev, item) => 
@@ -76,8 +73,7 @@ const CartContext = () => {
 
   return (
         <CartProvider.Provider value={values}>
-            <CardList />
-            <Navbar />
+            {children}
         </CartProvider.Provider>
   )
 }

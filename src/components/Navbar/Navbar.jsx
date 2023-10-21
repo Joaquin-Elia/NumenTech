@@ -54,10 +54,10 @@ const Navbar = () => {
     const showModal = () => setCartModal(true);
     
     return (
-        <>
-            <header ref={ref} className={changeNavbar ? "navbar-container navbar-active" : 'navbar-container'}>
+        <div className={changeNavbar ? "navbar-active" : 'header-max-width'}>
+            <header ref={ref} className='navbar-container'>
                 <a className="navbar-logo" href="#">
-                    <LogoSvg changeNavbar={changeNavbar} menuClick={menuClick} />
+                    <LogoSvg  changeNavbar={changeNavbar} menuClick={menuClick} />
                 </a>
                 
                 <div className={menuClick ? 'menu-icons icon-color' : 'menu-icons'} onClick={handleClick}>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 </div>
                 <CartModal cartModal={cartModal} closeModal={closeModal}/>
             </header>
-        </>
+        </div>
     )
 }
 

@@ -1,13 +1,17 @@
-.navbar-container{
+.header-max-width, .navbar-active{
     position: fixed;
     top: 0;
     width: 100%;
+}
+.navbar-container{
     height: 2.5rem;
     z-index: 4;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .3s ease-in-out;
+    max-width: 105rem;
+    margin: auto;
 }
 .navbar-active{
     background-color: #f3f4f9; 
@@ -220,10 +224,31 @@
         font-size: 1.05em;
     }
     .navbar-logo {
-        margin: auto 1rem auto 2rem;
+        margin: auto -2rem auto 3rem;
         width: 9rem;
     }
     .navbar-cart{
-        margin: auto 2rem auto 4rem;
+        margin: auto 3rem auto 4rem;
+    }
+}
+@media (min-width: 100rem){
+    .navbar-container{
+        height: 3.5rem;   
+    }
+    .navbar-active{
+        height: 3.5rem;
+    }
+    .nav-links-a{
+        padding: .3rem 1rem;
+        font-size: 1.15em;
+    }
+    .navbar-logo {
+        margin: .5rem -4rem auto 4rem;
+        width: 12rem;
+    }
+    .navbar-cart{
+        margin: .8rem 4rem 1rem 4.5rem;
+        width: 1.7rem;
+        height: 1.7rem;
     }
 }
