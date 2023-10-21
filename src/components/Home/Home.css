@@ -1,0 +1,73 @@
+.home-banner{
+    background: url("../../assets/banner-sm.jpg") no-repeat ;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin: auto;
+    display: flex;
+    padding-top: 14vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.home-pearl-white{
+    font-weight: 900;
+    font-size: 2.8rem;
+    padding: 0 .3rem;
+}
+.home-subtitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 25px 0 38px 0;
+    line-height: 2.2rem;
+    padding: 0 .3rem;
+}
+.home-boton{
+    background-color: white;
+    color: rgb(55, 55, 55);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px 37px;
+    text-decoration: none;
+    display: inline-block;
+}
+.home-texto{
+    max-width: 40rem;
+}
+@media(min-width: 500px){
+    .home-banner{
+        background-position: 0 80%;
+        padding-top: 16vh;
+    }
+}
+ @media(min-width: 900px){ 
+    .home-banner{
+        background: url("../../assets/banner-1440redux.jpg") no-repeat 25%;
+        background-size: cover;
+        padding-top: 26vh;
+        height: 70vh;
+    }
+    .home-boton{
+        transition: 150ms linear;
+    }
+    .home-boton:hover{
+        background-color: rgba(237, 237, 237, 0.848);
+    }
+} 
+@media(min-width: 1100px){
+    .home-banner{
+        height: 85vh;
+    }
+}
+@media(min-width: 1500px){
+    .home-banner{
+        height: 100vh;
+    }
+}

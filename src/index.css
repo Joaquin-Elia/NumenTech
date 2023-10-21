@@ -29,10 +29,6 @@ h1, h2, h3, h4, h5, h6, p, a, span, strong, i {
     text-decoration: none;
     color: inherit;
 }
-/* ::selection{
-    background-color: var(--color-red);
-    color: black;
-} */
 form, input , textarea, select, button, label {
     font-family: inherit;
     font-size: inherit;
@@ -49,11 +45,4 @@ svg {
 body {
     min-height: 100vh;
     font-size: 100%;
-    /* font-family: var(--principal-typo);
-    color: var(--dark-color);
-    background-color: var(--light-color); */
 }
-/* main{
-    max-width: 105rem;
-    margin: auto;
-} */
