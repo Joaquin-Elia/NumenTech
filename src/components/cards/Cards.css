@@ -45,12 +45,12 @@
     font-size: .9em;
 }
 .card-modal-info{
-    width: 90%;
+    width: 97%;
     margin: 3rem auto .8rem;
 }
 .card-modal-info > p{
-    font-size: .97em;
-    margin: 1.1rem 0 1.6rem;
+    font-size: .9em;
+    margin: 1.1rem 0 1.4rem;
     max-width: 24rem;
 }
 .card-modal-info > h3{
@@ -59,9 +59,13 @@
 }
 .card-modal-info > button{
     font-size: 1.1em;
+    margin: 1rem 0;
     padding: .7rem 1.2rem;
-    /* display: block; */
     width: 100%;
+}
+.card-modal-info > span{
+    font-size: 1.5em;
+    font-weight: 600;
 }
 @media (min-width: 60.25rem) {
     .cont-cards {
@@ -92,20 +96,28 @@
         background-color: blueviolet;
     }
     .card-modal-img{
-        width: 40rem;
-        margin: auto;
+        max-width: 20rem;
+        margin: -2rem auto auto;
     }
     .card-modal-info > p{
-        font-size: 1.05em;
+        font-size: .9em;
         max-width: 30rem;
     }
     .card-modal-info{
         width: 82%;
     }
-    .card-modal{
-        width: 45rem;
-    }
     .card-modal-info > button{
         font-size: 1.2em;
+    }
+}
+@media (min-width: 100rem) {
+    .card-modal-info > p{
+        font-size: 1.05em;
+        max-width: 30rem;
+        margin: 1.1rem 0 1.6rem;
+    }
+    .card-modal-img{
+        max-width: 25rem;
+        margin: -2rem auto auto;
     }
 }

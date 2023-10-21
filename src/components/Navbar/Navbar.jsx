@@ -13,7 +13,7 @@ const Navbar = () => {
     const menuLinks = [
         {name: 'Inicio', link: ''}, 
         {name: 'Productos', link: 'products'}, 
-        {name: 'Galería', link: 'galery'}, 
+        {name: 'Galería', link: 'gallery'}, 
         {name: 'Contacto', link: 'contact'}
     ];
     const ref = useRef(null);

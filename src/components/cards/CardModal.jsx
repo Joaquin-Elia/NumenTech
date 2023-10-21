@@ -1,27 +1,34 @@
-import Button from 'react-bootstrap/Button';
+/* eslint-disable react/prop-types */
 import Modal from 'react-bootstrap/Modal';
 
-const CardModal = (props) => {
+const CardModal = ({card, addToCart, ...props}) => {
+    const {id, img, title, description, price} = card;  
+
     return (
         <Modal
-        animation={true}
+          animation={true}
           {...props}
-        //   size="lg"
           aria-labelledby="contained-modal-title-vcenter"
           centered
-          backdrop={false}
+          backdrop="false"
         >
           <Modal.Header closeButton style={{border: "none"}}/>
           <Modal.Body>
-            <img src="../../src/assets/imgs/auris.webp" alt="" className='card-modal-img'/>
+            <img 
+              src={img} 
+              alt={title} 
+              className='card-modal-img'
+            />
             <div className="card-modal-info">
-            <h3>ASTRO A30 INALÁMBRICOS</h3>
-            <p>
-              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-              consectetur ac, vestibulum at eros.
-            </p>
-            <button className='btn-comprar-cards' onClick={() => props.addToCart(props.id)}>Añadir al Carrito</button>
+              <h3>{title}</h3>
+              <p>{description}</p>
+              <span>$ {price}</span>
+              <button 
+                className='btn-comprar-cards' 
+                onClick={() => addToCart(id)}
+              >
+                Añadir al Carrito
+              </button>
             </div>
           </Modal.Body>
         </Modal>
